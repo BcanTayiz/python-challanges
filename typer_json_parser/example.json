@@ -1,0 +1,13 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York",
+    "is_student": false,
+    "grades": [85, 92, 78],
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "zip_code": "12345"
+    }
+  }
+  
