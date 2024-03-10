@@ -4,10 +4,8 @@ app = typer.Typer()
 
 
 @app.command()
-def hello(name: str, iq: int, display_iq:bool = True):
+def hello(name: str, bool = True):
     print(f"Hello {name}")
-    if display_iq:
-        print(f"Your IQ is {iq}")
 
 @app.command()
 def goodbye():
